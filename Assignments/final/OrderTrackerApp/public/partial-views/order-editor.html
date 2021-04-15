@@ -1,0 +1,25 @@
+<br><h1 align="center" id="page-title">Order Form</h1>
+<br><h2 align="center" id="order-id"></h2>
+<form action="#" id="order-editor-form">
+    <div class="form-group">
+        <label for="orderType" class="form-control">Order Type</label>
+        <select name="orderType" id="orderType" class="form-control">
+            <option value="Internal">Internal</option>
+            <option value="External">External</option>
+        </select>
+<!--        <input type="text" id="orderType" name="orderType" class="form-control"/>-->
+    </div>
+
+
+    <div class="form-group">
+        <label for="date" class="form-control">Order Date</label>
+        <input type="date" id="date" name="date" class="form-control">
+    </div>
+    <div class="form-group">
+        <div></div>
+        <div>
+            <button class="btn btn--add" type="submit" id="save-btn"> Save</button>
+            <button class="btn btn--delete" type="cancel"> Cancel</button>
+        </div>
+    </div>
+</form>
